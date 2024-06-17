@@ -1,16 +1,23 @@
-# kochanet_measure_app
+# MeasureAp
 
-A new Flutter project.
+A “one-stop” app that allows a clinician to administer a paperless
+assessment at bedside for their patients.
 
-## Getting Started
+## Project setup.
 
-This project is a starting point for a Flutter application.
+This project runs out of the box. All that is needed is to do ```flutter run``` and select your emulator, simulator, or real device.
 
-A few resources to get you started if this is your first Flutter project:
+## Development Assumptions
+I didn't really make any assumptions per se, as the instructions were clear and concise.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Development Challenges Faced
+The only challenge I faced developing this project was the ```Gradient Button```.
+I tried building the blur shadow effect using a ```ShaderMask``` but it wasn't working as the fade at the bottom of the blur wasn't "fading", so I scrapped that out.
+The next thing I tried was using ```BoxShadow``` and ```LinearGradient``` in a container, but still to no avail.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+So I devised a workaround for the widget. What I did was to export the blur background from Figma and use a combination of the ``Stack`` and ``Transform.translate`` widgets to solve it.
+
+## Additional Feature Improvements
+
+- I added some minor animations just to improve the user experience and feel of the application.
+- I implemented localizations in the event where another translation or language wants to be added to the application.
