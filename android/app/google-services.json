@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "720120435177",
+    "firebase_url": "https://kochanet-measure-app-default-rtdb.firebaseio.com",
+    "project_id": "kochanet-measure-app",
+    "storage_bucket": "kochanet-measure-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720120435177:android:d1fde9c840fdbc33eb7b78",
+        "android_client_info": {
+          "package_name": "com.example.kochanet_measure_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMqB0W_AQi9sZzQ3dYTH4ffTLz8r4dbDI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
